@@ -1,0 +1,101 @@
+html {
+    box-sizing: border-box;
+    margin: 0px;
+    border: 0px;
+    font-family: 'Fredericka the Great';
+    color: white;
+    font-size: 18px;
+}
+span{
+    color: black;
+    font-family: 'Times New Roman';
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+}
+nav{ font-size: 3rem;
+    text-align: center;
+    padding: 25px;
+    height: 130px;
+    width: 100vw;
+    background-color: black;
+    position: fixed;
+    top: 0; left: 0;
+}
+.main-container {
+    margin-top: 300px;
+    display: flex;
+    width: 100vw;
+    height: fit-content;
+    justify-content: center;
+}
+
+
+#board {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 430px;
+    background-color: rgb(203,204,204);
+    border-right: 1px solid rgb(114, 112, 112);
+    border-bottom: 1px solid rgb(114, 112, 112);
+
+    width: 502px;
+    height: 502px;
+}
+.grid{
+
+    border-top: 1px solid rgb(114, 112, 112);
+    border-left: 1px solid rgb(114, 112, 112);
+    width: 7.8125px;
+    height: 7.8125px;
+    
+}
+
+button {
+    padding: 10px;
+    margin: 10px;
+    background-color: black;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    font-size: 0.9rem;
+}
+
+.buttons {
+    width: 170px ;
+    margin-left: 100px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.slider{
+    appearance: none;
+    border-radius: 15px;
+  box-shadow: inset 0 0 2px rgb(16, 15, 15);
+  height: 10px;
+}
+.slider::-webkit-slider-thumb{
+    appearance: none;
+    width: 10px;
+  height: 25px; 
+  background: black; 
+  cursor: pointer; 
+
+}
+.slider_div{
+    margin: 10px;
+
+}
+h2{
+color: black;
+font-size: 1rem;
+font-family:'Times New Roman';}
+
+body{
+    background-image: url(images/simona-sergi-OfjOuw_prPg-unsplash.jpg);
+background-size:1920px ;}
+

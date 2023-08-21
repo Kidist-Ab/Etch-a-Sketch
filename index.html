@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etch-a-Sketch</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@simonwep/pickr/dist/themes/nano.min.css" />
+    <!--color picker -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Hanken+Grotesk:wght@500;700;800&family=Karla:wght@400;700&family=Lumanosimo&family=Monoton&family=Nunito&family=Poppins:wght@200;300;400;700&family=Rubik+Wet+Paint&family=Tilt+Prism&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <nav> Etch-a-Sketch</nav>
+    <div class="main-container">
+        <div id="board"></div>
+        <div class="buttons">
+            <span id="colorPicker"> Pick A Color:</span>
+            <div class="color-picker"></div>
+            <button id="rainbowMode">Rainbow Mode</button>
+            <button id="eraser">Eraser</button>
+            <button id="clear">Clear</button>
+            <div class="slider_div">
+                <h2 id='rangeValue'>Grid Area: 16 x 16 </h2>
+                <input type="range" min="1" max="64" value="16" class="slider" id="gridValue"
+                    onmousemove="updateRange(this.value)" onchange="updateRange(this.value)">
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/@simonwep/pickr/dist/pickr.min.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
