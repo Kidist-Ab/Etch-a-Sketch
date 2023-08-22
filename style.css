@@ -11,11 +11,14 @@ span{
     font-family: 'Times New Roman';
 }
 
-*,
 *::after,
 *::before {
     box-sizing: inherit;
 }
+body{
+    background-image: url(images/backgroundImg.jpg);
+background-size:1920px ;}
+*,
 nav{ font-size: 3rem;
     text-align: center;
     padding: 25px;
@@ -95,7 +98,5 @@ color: black;
 font-size: 1rem;
 font-family:'Times New Roman';}
 
-body{
-    background-image: url(images/simona-sergi-OfjOuw_prPg-unsplash.jpg);
-background-size:1920px ;}
+
 
