@@ -10,7 +10,7 @@ span{
     color: black;
     font-family: 'Times New Roman';
 }
-
+*,
 *::after,
 *::before {
     box-sizing: inherit;
@@ -18,7 +18,7 @@ span{
 body{
     background-image: url(images/backgroundImg.jpg);
 background-size:1920px ;}
-*,
+
 nav{ font-size: 3rem;
     text-align: center;
     padding: 25px;
